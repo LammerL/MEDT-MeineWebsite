@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Hello this is virus</title>
+    <link rel="stylesheet" href="stuff.css">
+</head>
+
+<body id="Sapporo" onload="UpdateText()">
+    <div class="center">
+        <p>Ein Überblick meines Japanurlaubs im Sommer 2023</p>
+        <p>
+            Für Empfehlungen können Sie mir
+            <a class="contact" href="Contact.html">hier </a>
+            ein E-Mail schreiben.
+        </p>
+    </div>
+    <div class="center">
+        <div class="cities">
+            <a href="PageKyoto.html" class="h1">Kyoto</a> &nbsp;
+            <a href="PageTokyo.html" class="h1">Tokyo</a> &nbsp;
+            <h1>Sapporo</h1>
+        </div>
+        <button onclick="Toggle(1)">nächster Eintrag</button>
+        <button onclick="Toggle(0)">vorheriger Eintrag</button>
+    </div>
+    <div class="center">
+        <img class="sizeMedia" id="Sunset" src="Bilder/Sunset.jpg" style="display: none;">
+        <img class="sizeMedia" id="TokyoStation" src="Bilder/Tokyo Station.jpg" style="display: none;">
+    </div>
+    <div class="center">
+        <p style="white-space: pre;" id="Text"></p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
